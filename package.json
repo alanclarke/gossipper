@@ -1,0 +1,42 @@
+{
+  "name": "gossip",
+  "description": "a funky realtime echo server",
+  "version": "0.1.0",
+  "homepage": "https://github.com/alanclarke/gossip",
+  "author": {
+    "name": "alanclarke",
+    "email": "hi@alz.so"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanclarke/gossip.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alanclarke/gossip/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/alanclarke/gossip/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "lib/gossip",
+  "engines": {
+    "node": ">= 0.6.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.1.1",
+    "grunt-contrib-nodeunit": "~0.1.2",
+    "grunt-contrib-watch": "~0.2.0"
+  },
+  "keywords": [],
+  "dependencies": {
+    "socket.io": "~0.9.16",
+    "express": "~3.4.8",
+    "jade": "~1.1.5",
+    "lodash": "~2.4.1"
+  }
+}

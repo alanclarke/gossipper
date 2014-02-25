@@ -1,0 +1,11 @@
+doctype html
+html
+  head
+    title Gossip Server
+    script(src='/socket.io/socket.io.js')
+    script.
+      var socket = io.connect('http://localhost');
+      socket.on("request", function (data) {
+        console.log(data);
+      });
+  body
