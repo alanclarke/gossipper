@@ -1,7 +1,9 @@
 gossip
 ======
 
-simple real-time echo server for debugging. load in browser to inspect all subsequent requests in real time
+Simple real-time echo server for debugging.
+
+Simply load in browser to inspect all subsequent requests in real time.
 
 ## Getting Started
 Install the module with: `npm install gossip`
