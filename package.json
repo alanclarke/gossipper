@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git://github.com/alanclarke/gossip.git"
   },
+  "bin": {
+    "gossip": "./lib/gossip.js"
+  },
   "bugs": {
     "url": "https://github.com/alanclarke/gossip/issues"
   },
