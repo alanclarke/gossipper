@@ -34,10 +34,12 @@
   },
   "keywords": [],
   "dependencies": {
-    "socket.io": "~0.9.16",
-    "express": "~3.4.8",
-    "jade": "~1.1.5",
-    "lodash": "~2.4.1",
-    "commander": "~2.1.0"
+    "body-parser": "^1.15.1",
+    "commander": "^2.9.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "jade": "^1.11.0",
+    "lodash": "^4.13.1",
+    "socket.io": "^1.4.6"
   }
 }
