@@ -4,8 +4,8 @@ html
     title Gossip Server
     script(src='/socket.io/socket.io.js')
     script.
-      var socket = io.connect('http://localhost');
+      var socket = io.connect('http://localhost:#{port}')
       socket.on("request", function (data) {
         console.log(data);
-      });
+      })
   body
