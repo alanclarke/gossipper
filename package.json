@@ -1,7 +1,7 @@
 {
   "name": "gossip",
   "description": "a funky realtime echo server",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/alanclarke/gossip",
   "author": {
     "name": "alanclarke",
