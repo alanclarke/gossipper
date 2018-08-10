@@ -1,7 +1,7 @@
 {
   "name": "gossipper",
   "description": "A funky realtime echo server for debugging requests and such",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "homepage": "https://github.com/alanclarke/gossipper",
   "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
