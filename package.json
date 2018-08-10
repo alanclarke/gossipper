@@ -3,7 +3,7 @@
   "description": "A funky realtime echo server for debugging requests and such",
   "version": "0.1.1",
   "homepage": "https://github.com/alanclarke/gossipper",
-  "author": "Alan Clarke <hi@alz.io> (alz.io)",
+  "author": "Alan Clarke <code@alz.io> (alz.io)",
   "repository": {
     "type": "git",
     "url": "git://github.com/alanclarke/gossipper.git"
@@ -39,5 +39,8 @@
     "lodash": "^4.17.4",
     "socket.io": "^2.0.1"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "directories": {
+    "lib": "lib"
+  }
 }
